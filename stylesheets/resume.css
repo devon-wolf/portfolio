@@ -1,0 +1,20 @@
+button {
+	font-family: 'ostrich_sansmedium';
+	letter-spacing: .15rem;
+	font-size: 1rem;
+	background-color: var(--charcoal);
+	color: var(--cream);
+	padding: .5rem;
+	border: none;
+	box-shadow: var(--quinacridone-magenta) 1px 2px;
+}
+
+button:active {
+	outline: none;
+	background-color: var(--opal);
+	color: var(--charcoal);
+}
+
+button:focus {
+	outline: none;
+}
