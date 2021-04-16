@@ -2,11 +2,19 @@ button {
 	font-family: 'ostrich_sansmedium';
 	letter-spacing: .15rem;
 	font-size: 1rem;
+	display: grid;
+	grid-template-columns: min-content 1fr;
+	column-gap: .5rem;
 	background-color: var(--charcoal);
 	color: var(--cream);
 	padding: .5rem;
 	border: none;
 	box-shadow: var(--quinacridone-magenta) 1px 2px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: var(--quinacridone-magenta);
 }
 
 button:active {
@@ -17,4 +25,12 @@ button:active {
 
 button:focus {
 	outline: none;
+}
+
+button span {
+	margin: auto;
+}
+.button-icon {
+	max-height: 1rem;
+	margin: auto
 }

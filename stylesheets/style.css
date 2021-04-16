@@ -19,6 +19,7 @@ body {
 	background-color: var(--charcoal);
 	color: var(--opal);
 	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
 	display: grid;
 	grid-template-rows: min-content 1fr min-content;
 }
@@ -53,6 +54,7 @@ header h2 {
 nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	font-family: 'ostrich_sansmedium';
 	font-size: 1.25rem;
 }
