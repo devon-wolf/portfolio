@@ -1,4 +1,7 @@
 import { getTheme, setTheme } from './utils/local-storage.js';
+import { chooseTheme } from './utils/render-utils.js';
+
+chooseTheme(getTheme());
 
 const themeToggle = document.getElementById('theme-toggle');
 
@@ -15,5 +18,5 @@ themeToggle.addEventListener('click', () => {
 			setTheme('light');
 			break;
 	};
-	console.log (getTheme());
+	chooseTheme(getTheme());
 });

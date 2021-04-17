@@ -9,7 +9,7 @@ body {
 	--accent2: hsla(60, 75%, 88%, 1);
 } */
 
-body {
+.light body {
 	--text1: hsla(216, 22%, 23%, 1);
 	--text2: hsla(341, 40%, 42%, 1);
 	--accent1: hsla(160, 25%, 61%, 1);
@@ -17,25 +17,25 @@ body {
 	--accent2: hsla(216, 22%, 23%, 1);
 }
 
-button {
+.light button {
 	background-color: var(--accent1);
 	box-shadow: var(--text2) 1px 2px;
 }
 
-button:hover {
+.light button:hover {
 	background-color: var(--text1);
 	color: var(--accent1);
 }
 
-button:active {
+.light button:active {
 	color: var(--body);
 }
 
-a:hover {
+.light a:hover {
 	color: var(--text1);
 }
 
-main header {
+.light main header {
 	background-color: var(--text1);
 }
 	
