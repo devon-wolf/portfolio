@@ -1,0 +1,41 @@
+/*
+Original/Dark Mode Colors:
+
+body {
+	--text1: hsla(136, 20%, 82%, 1);
+	--text2: hsla(160, 25%, 61%, 1);
+	--accent1: hsla(341, 40%, 42%, 1);
+	--body: hsla(216, 22%, 23%, 1);
+	--accent2: hsla(60, 75%, 88%, 1);
+} */
+
+.light body {
+	--text1: hsla(216, 22%, 23%, 1);
+	--text2: hsla(341, 40%, 42%, 1);
+	--accent1: hsla(160, 25%, 61%, 1);
+	--body: hsla(136, 20%, 82%, 1);
+	--accent2: hsla(216, 22%, 23%, 1);
+}
+
+.light button {
+	background-color: var(--accent1);
+	box-shadow: var(--text2) 1px 2px;
+}
+
+.light button:hover {
+	background-color: var(--text1);
+	color: var(--accent1);
+}
+
+.light button:active {
+	color: var(--body);
+}
+
+.light a:hover {
+	color: var(--text1);
+}
+
+.light main header {
+	background-color: var(--text1);
+}
+	
