@@ -16,7 +16,7 @@ body {
 	--body: hsla(216, 22%, 23%, 1);
 	--accent2: hsla(60, 75%, 88%, 1);
 
-	background-color: var(--body);
+	background-color: var(--charcoal);
 	color: var(--text1);
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: lighter;
@@ -82,7 +82,7 @@ a:active {
 
 main header {
 	background-color: var(--text2);
-	color: var(--body);
+	color: var(--charcoal);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
