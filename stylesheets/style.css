@@ -71,6 +71,19 @@ section {
 	padding: 1rem;
 }
 
+a:link, a:visited {
+	color: var(--green-sheen);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--cream);
+}
+
+a:active {
+	color: var(--quinacridone-magenta);
+}
+
 main header {
 	background-color: var(--green-sheen);
 	color: var(--charcoal);
@@ -83,6 +96,12 @@ main header {
 main h1 {
 	margin: 0;
 	font-family: 'ostrich_sansblack';
+}
+
+h3 {
+	font-family: 'ostrich_sanslight';
+	font-size: 1.5rem;
+	letter-spacing: .3rem;
 }
 
 footer {

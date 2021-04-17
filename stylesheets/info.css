@@ -1,29 +1,17 @@
+ul {
+	list-style: none;
+	padding-left: unset;
+}
+
 li {
-	margin: 1rem;
-}
-li a:link, li a:visited {
-	color: var(--green-sheen);
-	text-decoration: none;
-}
-
-li a:hover {
-	color: var(--cream);
-}
-
-li a:active {
-	color: var(--quinacridone-magenta);
-}
-
-h3 {
-	font-weight: lighter;
+	margin: 1rem 0;
 }
 
 .ostrich {
 	font-family: 'ostrich_sansmedium';
 	font-size: 1.25rem;
-	color: var(--cream);
 }
 
 .roboto {
-	color: var(--cream);
+	font-weight: 500;
 }

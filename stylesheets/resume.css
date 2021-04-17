@@ -30,7 +30,30 @@ button:focus {
 button span {
 	margin: auto;
 }
-.button-icon {
-	max-height: 1rem;
-	margin: auto
+
+.resume {
+	margin: 2rem 3rem;
+	border: 3px solid var(--quinacridone-magenta);
+}
+
+.resume-head {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.name-wrapper h3{
+	margin-top: 0;
+}
+
+.name-wrapper p{
+	font-family: ostrich_sansmedium;
+	letter-spacing: .1rem;
+	margin-bottom: 0;
+}
+
+
+.contacts {
+	display: flex;
+	flex-direction: column;
 }
