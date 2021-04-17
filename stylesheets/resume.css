@@ -1,4 +1,4 @@
-button {
+.download {
 	font-family: 'ostrich_sansmedium';
 	letter-spacing: .15rem;
 	font-size: 1rem;
@@ -13,21 +13,21 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+.download:hover {
 	background-color: var(--accent1);
 }
 
-button:active {
+.download:active {
 	outline: none;
 	background-color: var(--text1);
 	color: var(--body);
 }
 
-button:focus {
+.download:focus {
 	outline: none;
 }
 
-button span {
+.download span {
 	margin: auto;
 }
 

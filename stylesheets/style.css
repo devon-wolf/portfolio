@@ -63,6 +63,22 @@ nav span a, nav span span {
 	margin-right: .5rem;
 }
 
+#theme-toggle {
+	color: var(--text1);
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+#theme-toggle:focus {
+	outline: none;
+}
+
+#theme-toggle:active {
+	outline: none;
+}
+
 section {
 	padding: 1rem;
 }
