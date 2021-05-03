@@ -1,0 +1,23 @@
+.bio {
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+.bio p {
+	margin: auto;
+	line-height: 1.75rem;
+}
+
+.bio b {
+	color: var(--accent2);
+	font-weight: 500;
+}
+
+.bio img {
+	width: 65%;
+	margin: auto;
+	border-radius: 15%;
+	box-shadow: var(--accent1) 4px 2px;
+	border-right: solid 2px var(--body);
+	border-bottom: solid 2px var(--body);
+}
