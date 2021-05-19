@@ -1,0 +1,9 @@
+.project {
+	margin: 2rem 0;
+	border-top: solid 2px var(--accent1);
+}
+
+.project h3 {
+	font-family: 'ostrich_sansblack';
+	margin: 1rem 0;
+}

@@ -1,29 +1,16 @@
 .bio {
 	display: grid;
-	grid-template-columns: 60% 40%;
 	grid-template-rows: min-content min-content;
-	column-gap: 1rem;
 	row-gap: 1rem;
 }
 
 .bio p {
-	margin: auto;
 	line-height: 1.75rem;
 }
 
 .bio b {
-	color: var(--accent2);
+	color: var(--text2);
 	font-weight: 500;
-}
-
-.bio img {
-	width: 65%;
-	margin: auto;
-	border-radius: 15%;
-	opacity: 85%;
-	box-shadow: var(--accent1) 4px 2px;
-	border-right: solid 2px var(--body);
-	border-bottom: solid 2px var(--body);
 }
 
 h4 {
@@ -33,6 +20,4 @@ h4 {
 
 .tinker-list {
 	font-size: .90rem;
-	grid-column-start: 1;
-	grid-column-end: 3;
 }
