@@ -14,6 +14,7 @@ body {
 	--text2: hsla(160, 25%, 61%, 1);
 	--accent1: hsla(341, 40%, 42%, 1);
 	--body: hsla(216, 22%, 23%, 1);
+	--body-transparent: hsla(216, 22%, 23%, .90);
 	--accent2: hsla(60, 75%, 88%, 1);
 
 	background-color: var(--body);
@@ -116,6 +117,12 @@ a:hover {
 
 a:active {
 	color: var(--accent1);
+}
+
+.masthead {
+	position: sticky;
+	top: 0%;
+	background-color: var(--body-transparent);
 }
 
 main header {
