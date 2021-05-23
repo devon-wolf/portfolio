@@ -16,6 +16,8 @@ The 'Roboto Condensed' font comes from [Google Fonts](https://fonts.google.com/s
 
 The color scheme was designed using [Coolors](https://coolors.co/).
 
+Resume design and embed were done using [Canva](https://www.canva.com).
+
 ## Licenses
 
 While the code found in this repository is free to use and modify if the mood strikes you (subject to the [GPL](./LICENSE)), some of the design resources are also goverened by their own licenses, which can be found at the links above.

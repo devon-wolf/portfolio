@@ -16,7 +16,7 @@
 	<title>Devon Wolfkiel | Portfolio</title>
 </head>
 <body>
-	<header>
+	<header class="masthead">
 		<h2><a class="title" href="../">Devon Wolfkiel</a></h2>
 		<nav>
 			<span class="site-nav">
@@ -37,13 +37,28 @@
 			<h1>Portfolio - Under Construction</h1>
 		</header>
 
+		<div id="screenshot-modal" class="modal">
+			<div class="modal-content">
+				<span class="close">Close</span>
+			</div>
+		</div>
+
 		<section>
 			<h3>Academic</h3>
 			
 			<div class="project">
-				<h3>Shame-B0t</h3>
+				<h3>Shame-b0t</h3>
 				<a href="https://github.com/Shame-B0t/Shame-Bot">GitHub</a>
+				
 				<p>Snarky Discord bot for time and attention management</p>
+
+				<div class="screenshots">
+					<img alt="Shame-b0t avatar" src="../assets/screenshots/shame-bot-avatar.jpg" />
+					<img alt="Shame-b0t user status" src="../assets/screenshots/shamebot-watching.png" />
+					<img alt="Shame-b0t demo" src="../assets/screenshots/seamus-demo.png" />
+					<img alt="Shame-b0t help" src="../assets/screenshots/shamebot-help.png" />
+					<img alt="Shame-b0t meme" src="../assets/screenshots/shamebot-meme.png" />
+				</div>
 			</div>
 
 			<div class="project">
@@ -51,14 +66,25 @@
 				<a href="https://else-by-elsewhere.netlify.app/">Site</a> | 
 				<a href="https://github.com/where-in-the-search/where-in-the-search-frontend">Frontend</a> | 
 				<a href="https://github.com/where-in-the-search/where-in-the-search-backend">Backend</a>
+				
+
 				<p>Location guessing game using Google Maps and LocationIQ</p>
+
+				<div class="screenshots">
+					<img alt="Else by Elsewhere game screenshot" src="../assets/screenshots/else-by-elsewhere-found.png" />
+				</div>
 			</div>
 
 			<div class="project">
 				<h3>Forgotten Logic</h3>
 				<a href="https://forgotten-logic.github.io/logic-app/">Site</a> | 
 				<a href="https://github.com/forgotten-logic/logic-app">GitHub</a>
+
 				<p>Sliding number puzzle</p>
+
+				<div class="screenshots">
+					<img alt="Number slider screenshot" src="../assets/screenshots/forgotten-logic.png" />
+				</div>
 			</div>
 			
 		</section>
@@ -71,13 +97,24 @@
 				<a href="https://github.com/devon-wolf/minion-bot">Bot</a> | 
 				<a href="https://github.com/devon-wolf/minion-dashboard">Dashboard</a> | 
 				<a href="https://github.com/devon-wolf/minion-server">Server</a>
+
 				<p>Obnoxious Discord bot delivering Minion memes in response to trigger words</p>
+
+				<div class="screenshots">
+					<img alt="Minion bot demo" src="../assets/screenshots/minion-bot.png" />
+					<img alt="Bot dashboard" src="../assets/screenshots/minion-dash.png" />
+				</div>
 			</div>
 
 			<div class="project">
 				<h3>Cactus Bot</h3>
 				<a href="https://github.com/devon-wolf/cactus-bot">GitHub</a>
+
 				<p>Discord bot using the Merriam-Webster API to deliver thesaurus results</p>
+
+				<div class="screenshots">
+					<img alt="Cactus bot demo" src="../assets/screenshots/cactus-thesaurus.png" />
+				</div>
 			</div>
 
 			<div class="project">
@@ -90,7 +127,12 @@
 				<h3>Mondrian Grid</h3>
 				<a href="https://devon-wolf.github.io/mondrian-grid/">Site</a> | 
 				<a href="https://github.com/devon-wolf/mondrian-grid">GitHub</a>
+
 				<p>An exercise in better understanding CSS grid</p>
+
+				<div class="screenshots">
+					<img alt="Mondrian grid screenshot" src="../assets/screenshots/mondrian-grid.png" />
+				</div>
 			</div>
 		</section>
 		
@@ -112,5 +154,6 @@
 	</footer>
 
 	<script type="module" src="../index.js"></script>
+	<script type="module" src="../portfolio.js"></script>
 </body>
 </html>
