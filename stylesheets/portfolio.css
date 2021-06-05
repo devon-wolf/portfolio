@@ -13,7 +13,7 @@
 .screenshots {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
 }
@@ -21,6 +21,7 @@
 .screenshots img {
 	width: 100%;
 	border-radius: 5px;
+	box-shadow: 2px 2px 2px hsla(216, 22%, 10%, 1);;
 	margin: .5rem;
 }
 
