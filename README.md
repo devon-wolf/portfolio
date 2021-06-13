@@ -4,7 +4,7 @@ My portfolio/personal site
 ## Stack
 I wanted to keep things simple to better reflect my own design and tooling preferences - while I truly enjoy working in React, for example, it seemed absurd to use so many extra tools on this project when plain-old vanilla JavaScript, HTML, and CSS would do the job with no protest.
 
-So that's what you'll see. Vanilla JS, HTML, and CSS, doing their thing. As the project progresses I expect it will be served up from a minimal Node JS backend using Express for ease of sharing files such as my resume.
+So that's what you'll see. Vanilla JS, HTML, and CSS, doing their thing.
 
 ## Design Resources
 
