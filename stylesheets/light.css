@@ -13,8 +13,10 @@ body {
 	--text1: hsla(216, 22%, 23%, 1);
 	--text2: hsla(341, 40%, 42%, 1);
 	--accent1: hsla(160, 25%, 61%, 1);
-	--body: hsla(136, 20%, 82%, 1);
-	--body-transparent: hsla(136, 20%, 82%, .90);
+	--oldbody: hsla(136, 20%, 82%, 1);
+	--body: #eafaf5;
+	--body-transparent: hsla(161, 62%, 95%, 0.90);
+	--oldbody-transparent: hsla(136, 20%, 82%, .90);
 	--accent2: hsla(216, 22%, 23%, 1);
 }
 

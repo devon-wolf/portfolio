@@ -34,7 +34,7 @@
 
 	<main>
 		<header>
-			<h1>Portfolio - Under Construction</h1>
+			<h1>Portfolio</h1>
 		</header>
 
 		<div id="screenshot-modal" class="modal">
@@ -55,6 +55,17 @@
 					
 					<p>Live multiplayer escape game disguised as a simple corporate website</p>
 
+					<p>
+						Escape GIM uses a <b>React</b> frontend with <b>Socket.io</b>, <b>Express</b>, and <b>Node</b> on the backend. It was developed over about 7 days by a team of 5 engineers, all working remotely.
+					</p>
+					<p>
+						Our concept was "a boring website, but it's a multiplayer escape room." Players are divided by the socket logic into rooms of three or fewer - rooms "lock" once any player has received a point, to prevent players entering mid-game. All player cursors appear on all screens in real-time, and effects one player has on the site affect other players as well. This was achieved through extensive use of sockets, React context providers, custom React hooks, and more CSS than any of us bargained for.
+					</p>
+
+					<p>
+						The parts of this project that I am most responsible for are the chat and the logic for the intermittent, game-state-dependent popups that advance the story. Both make use of sockets and custom hooks, and the popup logic uses our global game state context provider. We mob- and pair-programmed a good deal of this project, and managed our individual tasks via a ticketing system.
+					</p>
+
 					<p>Deployed on Heroku and Netlify</p>
 				</div>
 
@@ -70,6 +81,15 @@
 					
 					<p>Snarky Discord bot for time and attention management</p>
 
+					<p>
+						Shame-b0t has a special place in my heart - it was born from the writing sprint proctor project I had attempted that spurred me to get more serious about engineering. Based on user commands, the bot can either call out a user publicly for chatting during their designated focus time, or lock the user out of public channels in a Discord server completely for that duration.
+					</p>
+					<p>
+						During a 5 day sprint, our remote team of 4 used the <b>Discord.js</b> library in a <b>Node</b> application to build the bot. We used a continuously updating global state object to keep track of active users, their restrictions, and the time at which they should no longer be tracked.
+					</p>
+					<p>
+						My main contributions were leading the exploration/learning phase for my teammates and writing the bulk of the permissions management code, though we mob-programmed extensively throughout this project. We managed our tasks with a ticketing system and a focus on user stories.
+					</p>
 					<p>Deployed on Heroku</p>
 				</div>
 
@@ -87,9 +107,14 @@
 					<a href="https://else-by-elsewhere.netlify.app/" target="_blank" rel="noopener noreferrer">Site</a> | 
 					<a href="https://github.com/where-in-the-search/where-in-the-search-frontend" target="_blank" rel="noopener noreferrer">Frontend</a> | 
 					<a href="https://github.com/where-in-the-search/where-in-the-search-backend" target="_blank" rel="noopener noreferrer">Backend</a>
-					
 
 					<p>Location guessing game using Google Maps and LocationIQ</p>
+
+					<p>
+						Else by Elsewhere is a <b>full-stack React app</b> that presents players with an image from the <b>Google Maps Static Street View API</b>, along with optional hints from the <b>LocationIQ API</b>, and asks players to identify where in the world that image might be. Location data is stored in a <b>PostgreSQL</b> database and served by <b>Node/Express</b>. 
+
+						We worked in a remote team of 4 for a 5 day sprint, mob-programming nearly everything and organizing our work in a ticketing system.
+					</p>
 
 					<p>Deployed on Heroku and Netlify</p>
 				</div>
@@ -106,6 +131,14 @@
 					<a href="https://github.com/forgotten-logic/logic-app" target="_blank" rel="noopener noreferrer">GitHub</a>
 
 					<p>Sliding number puzzle</p>
+
+					<p>
+						For our first group project at Alchemy Code Labs, a team of 4 of us decided to build the classic sliding number puzzle, all in <b>vanilla JavaScript</b>.
+					</p>
+
+					<p>
+						State management for the puzzle was handled with a combination of state variables and local storage. I worked extensively on the main rendering logic for the puzzle itself, as well as the randomization/shuffle functions.
+					</p>
 				</div>
 
 				<div class="screenshots">
@@ -125,7 +158,7 @@
 					<a href="https://github.com/devon-wolf/slate-typescript" target="_blank" rel="noopener noreferrer">Frontend</a> | 
 					<a href="https://github.com/devon-wolf/doc-socket" target="_blank" rel="noopener noreferrer">Backend</a>
 
-					<p>Collaborative text editor written in TypeScript using the SlateJS library, React, and Socket.io (so far)</p>
+					<p>Collaborative text editor written in <b>TypeScript</b> using the <b>SlateJS</b> library, <b>React</b>, and <b>Socket.io</b> (so far)</p>
 
 					<p>This is a testing ground for building a robust collaborative text editor - there are many problems with its behavior at present, and it is currently just one document living in a giant array on the server. This is my main ongoing project, with the aim of developing a collaborative editing platform that is writer-friendly, easily shared with editors, easily exported to common file formats, and not data-hungry.</p>
 
@@ -133,7 +166,7 @@
 				</div>
 
 				<div class="screenshots">
-					<img alt="Number slider screenshot" src="../assets/screenshots/texted.png" />
+					<img alt="text editor screenshot" src="../assets/screenshots/texted.png" />
 				</div>
 			</div>
 
@@ -146,7 +179,7 @@
 
 					<p>Obnoxious Discord bot delivering Minion memes in response to trigger words</p>
 
-					<p>I built this bot for a friend using the Discord.js library, initially hardcoded with a set of starter responses and later expanded to allow the bot admin to add and remove responses and triggers to a Node/Express/Postgres backend via a React frontend. The bot makes a fetch to the API when it first comes online, and can be manually triggered to make a fresh fetch as needed, making the bot's response time much quicker than if it needed to make an API call on every message.</p>
+					<p>I built this bot for a friend using the <b>Discord.js</b> library, initially hardcoded with a set of starter responses and later expanded to allow the bot admin to add and remove responses and triggers to a <b>Node/Express/Postgres</b> backend via a <b>React</b> frontend. The bot makes a fetch to the API when it first comes online, and can be manually triggered to make a fresh fetch as needed.</p>
 
 					<p>Deployed on Heroku and Netlify</p>
 				</div>
@@ -164,9 +197,9 @@
 
 					<p>Discord bot using the Merriam-Webster API to deliver thesaurus results</p>
 
-					<p>This bot was initially intended to a prickly proctor for writing sprints, and was the original project that inspired Shame-b0t. It was the experimentation ground for a lot of my bot and Discord.js learning, and ultimately the main functionality that came out of it was this thesaurus command.</p>
+					<p>This bot was initially intended to a prickly proctor for writing sprints, and was the original project that inspired Shame-b0t. It was the experimentation ground for a lot of my bot and <b>Discord.js</b> learning, and ultimately the main functionality that came out of it was this thesaurus command.</p>
 
-					<p>It uses Superagent to hit the Merriam-Webster API with a search for the user-provided argument, then shapes those results into a user-friendly embed.</p>
+					<p>It uses <b>Superagent</b> to hit the <b>Merriam-Webster API</b> with a search for the user-provided argument, then shapes those results into a user-friendly embed.</p>
 
 					<p>Deployed on Heroku</p>
 				</div>
@@ -182,7 +215,7 @@
 					<a href="https://github.com/devon-wolf/bot-template" target="_blank" rel="noopener noreferrer">GitHub</a>
 					<p>Ongoing project building a clear, versatile template for new coders to build Discord bots</p>
 
-					<p>I began to build this template to provide a clear starting point for folks new to bots, keeping in mind the struggles I had when trying to get started. Like all the bots here, it uses the Discord.js library. There are two sets of many of the files - a commented version explaining what each line does, and an uncommented version for ease of seeing the bigger picture. This is very much a work in progress.</p>
+					<p>I began to build this template to provide a clear starting point for folks new to bots, keeping in mind the struggles I had when trying to get started. Like all the bots here, it uses the <b>Discord.js</b> library. There are two sets of many of the files - a commented version explaining what each line does, and an uncommented version for ease of seeing the bigger picture. This is very much a work in progress.</p>
 				</div>
 				<div class="screenshots"></div>
 			</div>
@@ -193,7 +226,7 @@
 					<a href="https://devon-wolf.github.io/mondrian-grid/" target="_blank" rel="noopener noreferrer">Site</a> | 
 					<a href="https://github.com/devon-wolf/mondrian-grid" target="_blank" rel="noopener noreferrer">GitHub</a>
 
-					<p>An exercise in better understanding CSS grid - look at a Mondrian painting, then try to replicate it on a webpage entirely with <code>display: grid</code>.</p>
+					<p>An exercise in better understanding <b>CSS grid</b> - look at a Mondrian painting, then try to replicate it on a webpage entirely with <code>display: grid</code>.</p>
 				</div>
 
 				<div class="screenshots">
